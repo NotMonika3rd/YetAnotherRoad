@@ -1,0 +1,161 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"本整合包中添加了匠魂的施法锋刃，同时具有近战武器和法杖的能力",
+		"对了，我帮你把原版法杖的合成配方删了，不用谢我"
+	],
+	tasks: [{
+		uid: "0b32a00f",
+		type: "checkmark",
+		title: "巫术学",
+		icon: {
+			id: "tinkers_wizardry:spellblade",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.02f,
+					FreeModifiers: 3,
+					maxMana: 1000,
+					Durability: 528,
+					HarvestLevel: 4,
+					Attack: 9.72f,
+					spellPotency: 25.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.02f,
+					FreeModifiers: 3,
+					maxMana: 1000,
+					Durability: 528,
+					HarvestLevel: 4,
+					Attack: 9.72f,
+					spellPotency: 25.0f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"wizardry",
+						"tool"
+					]
+				},
+				WizardryData: {
+					tier: "NOVICE",
+					mana: 0,
+					spells: [I;],
+					element: "MAGIC"
+				},
+				TinkerData: {
+					Materials: [
+						"manyullyn",
+						"manyullyn",
+						"manyullyn"
+					],
+					Modifiers: [
+						"magic_data",
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "coldblooded",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "insatiable",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "magic_data",
+					color: 13320183,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"coldblooded",
+					"insatiable",
+					"toolleveling"
+				]
+			}
+		}
+	}],
+	rewards: [{
+		uid: "b11659d6",
+		type: "item",
+		item: {
+			id: "tinkers_wizardry:spellblade",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					maxMana: 80,
+					Durability: 48,
+					HarvestLevel: 0,
+					Attack: 3.0f,
+					spellPotency: 1.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					maxMana: 80,
+					Durability: 48,
+					HarvestLevel: 0,
+					Attack: 3.0f,
+					spellPotency: 1.5f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"wizardry",
+						"tool"
+					]
+				},
+				WizardryData: {
+					tier: "NOVICE",
+					mana: 0,
+					cooldown: [I;],
+					spells: [I;],
+					element: "MAGIC"
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"magic_data",
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "magic_data",
+					color: 13320183,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"toolleveling"
+				],
+				UniqueToolID: "68556431-0a65-4cec-ac65-fb33b19b169c"
+			}
+		}
+	}]
+}

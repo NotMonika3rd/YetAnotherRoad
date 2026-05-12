@@ -1,0 +1,14 @@
+{
+	title: "到访暮色森林",
+	icon: "twilightforest:miniature_structure",
+	x: -8.0d,
+	y: -1.5d,
+	dependencies: [
+		"5053549b"
+	],
+	tasks: [{
+		uid: "ba77c6bd",
+		type: "dimension",
+		dim: 7
+	}]
+}

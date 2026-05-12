@@ -11,6 +11,9 @@
     ],
     "postInit": [
       "postInit/"
+    ],
+    "init": [
+      "init/"
     ]
   },
   "packmode": {

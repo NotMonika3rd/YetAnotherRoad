@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 6.0d,
+	text: [
+		"其实一些高挖掘等级的东西是不防爆的"
+	],
+	dependencies: [
+		"573b597c"
+	],
+	tasks: [{
+		uid: "47b6ace0",
+		type: "item",
+		items: [{
+			item: "tconstruct:throwball 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	x: 0.5d,
+	y: -2.5d,
+	dependencies: [
+		"ce86c078"
+	],
+	tasks: [{
+		uid: "451af290",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "9443abfb",
+		type: "item",
+		item: "minecraft:chest",
+		count: 64
+	},
+	{
+		uid: "a0b4c0ab",
+		type: "item",
+		item: "storagenetwork:master"
+	},
+	{
+		uid: "5637a8be",
+		type: "item",
+		item: "storagenetwork:storage_kabel",
+		count: 64
+	},
+	{
+		uid: "1c0c74ac",
+		type: "item",
+		item: "storagenetwork:controller"
+	},
+	{
+		uid: "0fe8a1db",
+		type: "item",
+		item: "storagenetwork:remote 1 1"
+	},
+	{
+		uid: "703e7de7",
+		type: "item",
+		item: "storagenetwork:request"
+	}]
+}

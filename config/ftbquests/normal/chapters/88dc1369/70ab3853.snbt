@@ -1,0 +1,61 @@
+{
+	x: 3.5d,
+	y: 0.5d,
+	dependencies: [
+		"ce86c078"
+	],
+	tasks: [{
+		uid: "64ec3839",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "729529e4",
+		type: "item",
+		item: "tconstruct:faucet",
+		count: 64
+	},
+	{
+		uid: "8836df27",
+		type: "item",
+		item: "tconstruct:casting",
+		count: 64
+	},
+	{
+		uid: "f5bfd8d0",
+		type: "item",
+		item: "tconstruct:casting 1 1",
+		count: 64
+	},
+	{
+		uid: "262877ab",
+		type: "item",
+		item: "tconstruct:smeltery_io",
+		count: 64
+	},
+	{
+		uid: "122be309",
+		type: "item",
+		item: "tconstruct:seared_furnace_controller"
+	},
+	{
+		uid: "8639d2a2",
+		type: "item",
+		item: "tconstruct:seared_glass",
+		count: 64
+	},
+	{
+		uid: "c32da878",
+		type: "item",
+		item: "tconstruct:seared",
+		count: 64
+	},
+	{
+		uid: "db1d9ff1",
+		type: "item",
+		item: "tconstruct:seared_tank",
+		count: 64
+	}]
+}

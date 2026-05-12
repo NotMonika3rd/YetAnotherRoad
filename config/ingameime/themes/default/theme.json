@@ -1,0 +1,21 @@
+{
+  "id": "default",
+  "name": "Default Theme",
+  "textColor": "0xFF000000",
+  "backgroundColor": "0xEBEBEBEB",
+  "indexColor": "0xFF555555",
+  "selectedBackgroundColor": "0xEBEBEBEB",
+  "cursorColor": "0xFF000000",
+  "borderColor": "0x80000000",
+  "padding": 3,
+  "candidatePadding": 5,
+  "borderWidth": 1,
+  "textureFile": "",
+  "u": 0,
+  "v": 0,
+  "sliceSize": 0,
+  "cornerSize": 0,
+  "textureWidth": 256,
+  "textureHeight": 256,
+  "decorations": []
+}

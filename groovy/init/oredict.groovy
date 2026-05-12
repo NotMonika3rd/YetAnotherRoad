@@ -1,0 +1,1 @@
+ore('foodChocolatebar').add(item('foodexpansion:itemchocolatebar'),item('dontstarvereborn:chocolate'))

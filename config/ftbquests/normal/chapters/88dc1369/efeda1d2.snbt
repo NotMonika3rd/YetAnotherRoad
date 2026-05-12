@@ -1,0 +1,31 @@
+{
+	x: 3.5d,
+	y: 3.0d,
+	dependencies: [
+		"70ab3853",
+		"573b597c"
+	],
+	tasks: [{
+		uid: "4529521f",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "90bf1184",
+		type: "item",
+		item: {
+			id: "tconstruct:shard",
+			tag: {
+				Material: "iron"
+			}
+		},
+		count: 64
+	},
+	{
+		uid: "ef3d72dc",
+		type: "item",
+		item: "minecraft:lava_bucket"
+	}]
+}

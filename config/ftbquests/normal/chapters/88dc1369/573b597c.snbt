@@ -1,0 +1,71 @@
+{
+	x: 0.5d,
+	y: 3.0d,
+	dependencies: [
+		"ce86c078"
+	],
+	tasks: [{
+		uid: "ffe6eada",
+		type: "item",
+		items: [{
+			id: "tconstruct:pickaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 75,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"toolleveling"
+				],
+				UniqueToolID: "28e53dd1-c7f7-4836-a8c8-751870a2e3f7"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b236e42",
+		type: "item",
+		item: "baubles:ring"
+	}]
+}
